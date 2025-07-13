@@ -1,0 +1,39 @@
+# LLM & RAG core libraries
+langchain
+langchain-community
+llama-index
+
+# Uncomment if using OpenAI API
+openai
+
+# Uncomment if using Google Gemini
+google-generativeai
+
+# Qdrant vector database
+qdrant-client
+
+# Document loaders
+PyMuPDF==1.23.9       # For reading PDFs
+
+# Embedding model
+sentence-transformers
+
+# Vector database
+faiss-cpu              # CPU version of FAISS
+
+# Local LLM via Ollama (client only, Ollama must be installed separately)
+ollama
+
+# UI (optional)
+gradio
+
+# Optional utilities
+tqdm
+numpy
+
+PyMuPDF
+pandas
+pdf2image 
+matplotlib
+
+pdfplumber
